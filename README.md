@@ -16,7 +16,7 @@ A fun and classic Snake game built using **Python** and **pygame**. Navigate the
 
 ## Installation
 
-1. **Install Python 3**  
+1. **Install Python**  
    Check if Python is installed:
 
    ```bash
