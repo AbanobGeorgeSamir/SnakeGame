@@ -1,24 +1,48 @@
-# Snake Game in Python
+# 🐍 Snake Game
 
-A fun and classic Snake game built using **Python** and **pygame**. Navigate the snake with arrow keys, eat food to grow, and avoid hitting walls or yourself. Perfect for learning Python and game development basics.
+A classic Snake game built with Python and Pygame — smooth controls, score tracking, collision detection, and instant restart.
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-green?style=flat-square)
 
-## Features
+## ✨ Features
 
-- Classic Snake gameplay
-- Score tracking
-- Restart after game over
-- Smooth controls and animations
-- Works on Windows, macOS, and Linux
+- 🎮 Smooth keyboard-controlled movement
+- 🍎 Food spawning with growth mechanics
+- 💥 Wall and self-collision detection
+- 🏆 Real-time score tracking
+- 🔄 Instant restart on game over
 
----
+## 🚀 Getting Started
 
-## Installation
+### Prerequisites
 
-1. **Install Python**  
-   Check if Python is installed:
+- Python 3.8+
+- Pygame
 
-   ```bash
-   python --version
-   ```
+```bash
+pip install pygame
+```
+
+### Run the Game
+
+```bash
+git clone https://github.com/AbanobGeorgeSamir/SnakeGame.git
+cd SnakeGame
+python main.py
+```
+
+### Controls
+
+| Key | Action |
+|---|---|
+| ↑ / W | Move Up |
+| ↓ / S | Move Down |
+| ← / A | Move Left |
+| → / D | Move Right |
+| R | Restart |
+| Q / Esc | Quit |
+
+## 👤 Author
+
+**Abanoub George Samir** — [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
