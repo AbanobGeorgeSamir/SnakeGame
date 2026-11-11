@@ -1,48 +1,37 @@
-# 🐍 Snake Game
+# Snake
 
-A classic Snake game built with Python and Pygame — smooth controls, score tracking, collision detection, and instant restart.
+Classic Snake game for the desktop, built with Python and Pygame.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pygame](https://img.shields.io/badge/Pygame-green?style=flat-square)
+![Pygame](https://img.shields.io/badge/Pygame-2C8A2C?style=flat-square)
 
-## ✨ Features
+## Features
 
-- 🎮 Smooth keyboard-controlled movement
-- 🍎 Food spawning with growth mechanics
-- 💥 Wall and self-collision detection
-- 🏆 Real-time score tracking
-- 🔄 Instant restart on game over
+- Arrow-key controls
+- The snake grows each time it eats food
+- Live score display
+- Game over on hitting a wall or the snake's own body
+- Restart or quit from the game-over screen
 
-## 🚀 Getting Started
+## Controls
 
-### Prerequisites
+| Key | Action |
+| --- | --- |
+| Arrow keys | Move the snake |
+| `C` | Play again after game over |
+| `Q` | Quit after game over |
 
-- Python 3.8+
-- Pygame
+## Getting Started
 
-```bash
-pip install pygame
-```
-
-### Run the Game
+**Requirements:** Python 3 and Pygame.
 
 ```bash
 git clone https://github.com/AbanobGeorgeSamir/SnakeGame.git
 cd SnakeGame
-python main.py
+pip install pygame
+python snake_game.py
 ```
 
-### Controls
+## Author
 
-| Key | Action |
-|---|---|
-| ↑ / W | Move Up |
-| ↓ / S | Move Down |
-| ← / A | Move Left |
-| → / D | Move Right |
-| R | Restart |
-| Q / Esc | Quit |
-
-## 👤 Author
-
-**Abanoub George Samir** — [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
+**Abanoub George Samir** · Junior Full-Stack Developer · [Portfolio](https://devabanobgeorge.vercel.app) · [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
